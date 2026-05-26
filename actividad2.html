@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2 – Subredes y Topología</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">Proyecto Redes & Servidores</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="actividad1.html">Actividad 1</a></li>
+        <li><a class="active" href="actividad2.html">Actividad 2</a></li>
+        <li><a href="actividad3.html">Actividad 3</a></li>
+        <li><a href="actividad4.html">Actividad 4</a></li>
+        <li><a href="actividad5.html">Actividad 5</a></li>
+        <li><a href="actividad6.html">Actividad 6</a></li>
+    </ul>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</nav>
+
+<section class="content">
+    <h1>Actividad 2</h1>
+    <h2>Cálculo de Subredes y Topología Cisco Packet Tracer</h2>
+
+    <h3>✔ Cálculo de subredes</h3>
+    <ul>
+        <li>Red base: 172.16.0.0/16</li>
+        <li>Necesidad: 10 subredes</li>
+        <li>Máscara final: /20 (255.255.240.0)</li>
+        <li>Salto: 16 en el tercer octeto</li>
+    </ul>
+
+    <h3>✔ Subredes generadas</h3>
+    <p>Se generaron 10 subredes desde 172.16.0.0/20 hasta 172.16.144.0/20.</p>
+
+    <h3>✔ Topología en Packet Tracer</h3>
+    <ul>
+        <li>Creación de VLANs en Switch0, Switch1 y Switch2.</li>
+        <li>Asignación de puertos en modo access.</li>
+        <li>Configuración de enlaces trunk.</li>
+        <li>Router-on-a-stick con subinterfaces.</li>
+        <li>Configuración de DHCP para cada VLAN.</li>
+    </ul>
+
+</section>
+
+<footer>
+    <p>© 2026 – Proyecto de Redes y Sistemas</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
